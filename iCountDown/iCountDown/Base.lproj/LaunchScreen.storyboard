@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Optima.ttc">
+            <string>Optima-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hot30_Countdown_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Bdz-XS-8vO">
+                                <rect key="frame" x="16" y="113" width="343" height="198"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Bdz-XS-8vO" secondAttribute="height" multiplier="343:198" id="ePN-Ys-mqa"/>
+                                    <constraint firstAttribute="width" constant="343" id="iNs-v0-2Tf"/>
+                                    <constraint firstAttribute="height" constant="198" id="pnr-YP-kPq"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Count Down Timer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ash-Sv-9xJ">
+                                <rect key="frame" x="22" y="386" width="330" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="330" id="NhL-iD-GAM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bdz-XS-8vO" secondAttribute="trailing" constant="16" id="AL5-Ah-BLK"/>
+                            <constraint firstItem="Bdz-XS-8vO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="93" id="JNW-0s-t2H"/>
+                            <constraint firstItem="Ash-Sv-9xJ" firstAttribute="top" secondItem="Bdz-XS-8vO" secondAttribute="bottom" constant="75" id="LlK-9A-Txr"/>
+                            <constraint firstItem="Bdz-XS-8vO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="egF-W3-TMc"/>
+                            <constraint firstItem="Ash-Sv-9xJ" firstAttribute="top" secondItem="Bdz-XS-8vO" secondAttribute="bottom" constant="75" id="kqp-ZH-0rk"/>
+                            <constraint firstItem="Ash-Sv-9xJ" firstAttribute="centerX" secondItem="Bdz-XS-8vO" secondAttribute="centerX" id="oU7-1Q-oe4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ash-Sv-9xJ" secondAttribute="bottom" constant="242.5" id="s1Y-du-afq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Hot30_Countdown_Logo" width="1130" height="345"/>
+    </resources>
+</document>
