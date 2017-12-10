@@ -56,16 +56,16 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        let pathAudio = NSURL.fileURL(withPath: Bundle.main.path(forResource: "123", ofType: ".mp3")!)
-
-            do
-            {
-                let audioSound = try
-                    AVAudioPlayer(contentsOf: pathAudio)
-                audioPlayer = audioSound
-            }catch let error as Error {
-                print(error.localizedDescription)
-            }
+//        let pathAudio = NSURL.fileURL(withPath: Bundle.main.path(forResource: "123", ofType: ".mp3")!)
+//
+//            do
+//            {
+//                let audioSound = try
+//                    AVAudioPlayer(contentsOf: pathAudio)
+//                audioPlayer = audioSound
+//            }catch let error as Error {
+//                print(error.localizedDescription)
+//            }
     }
 
     override func didReceiveMemoryWarning() {

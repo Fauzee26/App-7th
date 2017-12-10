@@ -169,11 +169,13 @@
                             <constraint firstItem="p3P-an-va6" firstAttribute="top" secondItem="uHf-Mm-Vlr" secondAttribute="bottom" constant="21" id="7mJ-9R-ASa"/>
                             <constraint firstItem="p3P-an-va6" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="erA-Nl-zRT" secondAttribute="trailing" id="Bm0-03-11B"/>
                             <constraint firstItem="erA-Nl-zRT" firstAttribute="centerX" secondItem="7a7-ta-Lrw" secondAttribute="centerX" id="DaR-dL-NhD"/>
+                            <constraint firstItem="7a7-ta-Lrw" firstAttribute="leading" secondItem="Av5-yl-Xdk" secondAttribute="leading" id="Fb9-5C-Lof"/>
                             <constraint firstItem="p3P-an-va6" firstAttribute="trailing" secondItem="Wbx-RI-eyB" secondAttribute="trailing" id="H8Q-dP-nLi"/>
                             <constraint firstItem="p3P-an-va6" firstAttribute="leading" secondItem="Wbx-RI-eyB" secondAttribute="leading" id="J30-ZN-JVn"/>
                             <constraint firstItem="7a7-ta-Lrw" firstAttribute="leading" secondItem="IJX-64-95R" secondAttribute="leading" id="JDy-g6-l0n"/>
                             <constraint firstItem="erA-Nl-zRT" firstAttribute="top" secondItem="Wbx-RI-eyB" secondAttribute="bottom" constant="24" id="Ku2-OE-pKL"/>
                             <constraint firstItem="p3P-an-va6" firstAttribute="centerX" secondItem="7a7-ta-Lrw" secondAttribute="centerX" id="Rcr-st-znY"/>
+                            <constraint firstItem="7a7-ta-Lrw" firstAttribute="trailing" secondItem="Av5-yl-Xdk" secondAttribute="trailing" id="U3X-Gl-7GW"/>
                             <constraint firstItem="p3P-an-va6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="erA-Nl-zRT" secondAttribute="leading" id="V5J-F8-66u"/>
                             <constraint firstItem="Zv0-Od-V2Z" firstAttribute="top" secondItem="p3P-an-va6" secondAttribute="bottom" constant="24" id="ZJi-9n-1aW"/>
                             <constraint firstItem="p3P-an-va6" firstAttribute="leading" secondItem="uHf-Mm-Vlr" secondAttribute="leading" id="d4Q-oI-DWE"/>
@@ -182,6 +184,7 @@
                             <constraint firstItem="p3P-an-va6" firstAttribute="centerX" secondItem="Zv0-Od-V2Z" secondAttribute="centerX" id="kyh-50-qZQ"/>
                             <constraint firstItem="Av5-yl-Xdk" firstAttribute="trailing" secondItem="uHf-Mm-Vlr" secondAttribute="trailing" constant="16" id="pqk-52-prL"/>
                             <constraint firstItem="7a7-ta-Lrw" firstAttribute="top" secondItem="erA-Nl-zRT" secondAttribute="bottom" constant="81" id="sO7-Tm-Hge"/>
+                            <constraint firstItem="7a7-ta-Lrw" firstAttribute="bottom" secondItem="Av5-yl-Xdk" secondAttribute="bottom" id="sZ9-zm-EDc"/>
                             <constraint firstAttribute="bottom" secondItem="erA-Nl-zRT" secondAttribute="bottom" constant="125" id="uiK-gw-a1r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Av5-yl-Xdk"/>
